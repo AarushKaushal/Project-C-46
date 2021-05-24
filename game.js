@@ -29,7 +29,7 @@ class Game{
         this.startButton.visible = false;
         camera.position.x = player.sprite.x;
         ground.x = camera.position.x; 
-        if(keyIsDown (32) && player.sprite.y>750){
+        if(keyIsDown (32) && player.sprite.y>600){
             player.sprite.velocityY = -20;    
         }
         player.gravity(0.6);
